@@ -62,7 +62,7 @@ function Register() {
             <form onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name</label>
-                    <input type="text" placeholder='Enter your name' id='email' value={name} name='name' onChange={handleChangeInput} />
+                    <input type="text" placeholder='Enter your name' id='name' value={name} name='name' onChange={handleChangeInput} />
                 </div>
                 <div>
                     <label htmlFor="email">Email</label>
